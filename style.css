@@ -127,4 +127,112 @@ footer{
     margin:20px 0;
     border:1px solid #334155;
 }
+/* Daftar Produk */
+.produk-container{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:20px;
+    padding:20px;
 }
+
+/* Kartu Produk */
+.produk-card{
+    background:#1f2937;
+    border:2px solid #2dd4bf;
+    border-radius:15px;
+    padding:20px;
+    text-align:center;
+    transition:0.3s;
+    box-shadow:0 5px 15px rgba(0,0,0,.3);
+}
+
+.produk-card:hover{
+    transform:translateY(-5px);
+    border-color:#facc15;
+}
+
+/* Judul */
+.produk-card h3{
+    color:#fff;
+    font-size:22px;
+    margin-bottom:10px;
+}
+
+/* Harga */
+.harga{
+    color:#22c55e;
+    font-size:28px;
+    font-weight:bold;
+    margin:15px 0;
+}
+
+/* Tombol */
+.btn-beli{
+    display:inline-block;
+    background:#25D366;
+    color:#fff;
+    text-decoration:none;
+    padding:12px 20px;
+    border-radius:10px;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+.btn-beli:hover{
+    background:#1ebd5a;
+}
+/* Daftar Produk */
+.produk-container{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:20px;
+    padding:20px;
+}
+
+/* Kartu Produk */
+.produk-card{
+    background:#1f2937;
+    border:2px solid #2dd4bf;
+    border-radius:15px;
+    padding:20px;
+    text-align:center;
+    transition:0.3s;
+    box-shadow:0 5px 15px rgba(0,0,0,.3);
+}
+
+.produk-card:hover{
+    transform:translateY(-5px);
+    border-color:#facc15;
+}
+
+/* Judul */
+.produk-card h3{
+    color:#fff;
+    font-size:22px;
+    margin-bottom:10px;
+}
+
+/* Harga */
+.harga{
+    color:#22c55e;
+    font-size:28px;
+    font-weight:bold;
+    margin:15px 0;
+}
+
+/* Tombol */
+.btn-beli{
+    display:inline-block;
+    background:#25D366;
+    color:#fff;
+    text-decoration:none;
+    padding:12px 20px;
+    border-radius:10px;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+.btn-beli:hover{
+    background:#1ebd5a;
+}
+}  
