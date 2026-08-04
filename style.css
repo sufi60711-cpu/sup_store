@@ -84,4 +84,47 @@ footer{
     text-align:center;
     padding:20px;
     color:#9ca3af;
+    .contact-payment{
+    padding:40px 20px;
+    text-align:center;
+}
+
+.contact-payment .box{
+    max-width:500px;
+    margin:auto;
+    background:#1e293b;
+    color:#fff;
+    border-radius:15px;
+    padding:20px;
+    box-shadow:0 0 15px rgba(0,0,0,.3);
+}
+
+.contact-payment .btn{
+    display:inline-block;
+    margin:15px 0;
+    background:#25D366;
+    color:#fff;
+    padding:12px 25px;
+    border-radius:10px;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+.contact-payment .btn:hover{
+    background:#1da851;
+}
+
+.contact-payment .qr{
+    width:250px;
+    max-width:100%;
+    background:#fff;
+    padding:10px;
+    border-radius:10px;
+    margin:15px 0;
+}
+
+.contact-payment hr{
+    margin:20px 0;
+    border:1px solid #334155;
+}
 }
