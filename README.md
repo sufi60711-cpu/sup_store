@@ -1,0 +1,32 @@
+SUP Store
+
+SUP Store adalah website layanan digital yang menyediakan:
+
+- 🎮 Top Up Game
+- 🔄 Jual Beli Akun Mobile Legends
+- 📦 Cek Status Pesanan
+- 🎁 Promo Terbaru
+- 📞 Kontak Admin via WhatsApp
+
+Website ini dibuat menggunakan HTML, CSS, dan JavaScript dengan tampilan modern, responsif, dan mudah digunakan di HP maupun komputer.
+
+Fitur
+
+- Halaman Beranda
+- Top Up Game
+- Jual Beli Akun
+- Cek Pesanan
+- Promo
+- Kontak Admin
+
+Teknologi
+
+- HTML5
+- CSS3
+- JavaScript
+
+Developer
+
+SUP Store
+
+Terima kasih telah mengunjungi proyek ini. Semoga bermanfaat!
