@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pembayaran - Supi Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>💳 Pembayaran</h1>
+
+    <h2>Silakan lakukan pembayaran</h2>
+
+    <h3>QRIS</h3>
+    <img src="images/qris.png" alt="QRIS" width="250">
+
+    <h3>DANA</h3>
+    <p>083183653773</p>
+
+    <h3>GoPay</h3>
+    <p>083183653773</p>
+
+    <button onclick="kirimWA()">Saya Sudah Bayar</button>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
