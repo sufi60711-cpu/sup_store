@@ -95,14 +95,6 @@ font-family:Arial,Helvetica,sans-serif;
 </section>
 
 </body>
-<!-- Tempel kode pembayaran DI SINI -->
-<section class="payment">
-    <h2>💳 Pembayaran Transfer</h2>
-
-    <div class="payment-box">
-        <h3>GoPay</h3>
-
-        <img src="images/gopay-qr.png" alt="QR GoPay" class="qr">
 
         <p><b>Nama:</b> SUP STORE</p>
         <p><b>No. GoPay:</b> 083183653773</p>
@@ -221,6 +213,19 @@ color:#9ca3af;
 
     <div class="payment-box">
         <h3>GoPay</h3>
+        <div class="payment">
+    <h3>Pilih Pembayaran</h3>
+
+    <button onclick="bayarDana()">
+        💙 Bayar lewat DANA
+    </button>
+</div>
+
+<script>
+function bayarDana(){
+    window.location.href="https://link.dana.id/";
+}
+</script>
 
         <img src="images/gopay-qr.png" alt="QR GoPay" class="qr">
 
@@ -267,7 +272,7 @@ Top Up Diamond Mobile Legends
 </head>
 <body>
 
-<h1>🔥 SUPI STORE</h1>
+<h1>🔥 SUP STORE</h1>
 <p>Top Up Mobile Legends</p>
 
 <h2>Masukkan Data</h2>
@@ -290,10 +295,29 @@ Top Up Diamond Mobile Legends
 <button>💎 86 DM</button>
 <button>💎 172 DM</button>
 <button>💎 257 DM</button>
-</div><button onclick="window.location.href='bayar.html'">
-    Lanjutkan Pembelian
-</button>
-ipt src="script.js"></script>
+<div class="payment">
+    <h3>Pilih Pembayaran</h3>
+
+    <button onclick="bayarDana()">
+        💙 Bayar lewat DANA
+    </button>
+
+    <button onclick="bayarGopay()">
+        💚 Bayar lewat GoPay
+    </button>
+
+    <p id="infoGopay"></p>
+</div>
+
+<script>
+function bayarDana(){
+    window.location.href="https://link.dana.id/minta?full_url=https://qr.dana.id/v1/281012012025010745701326";
+}
+
+function bayarGopay(){
+    document.getElementById("infoGopay").innerHTML =
+    "Nomor GoPay: 083183653773";
+}
 
 <script src="script.js"></script>
 
