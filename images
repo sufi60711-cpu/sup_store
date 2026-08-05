@@ -7,14 +7,7 @@ sup_store/
     ├── akun-    ├── fredrin.jpg
     └── gopay-qr.pngimages/
         ├── akun-ml.
-        <h2>Pembayaran</h2>
-
-<h3>GoPay</h3>
-
-<img src="images/gopay.png" alt="QR GoPay" width="300">
-
-<p>Silakan scan QR GoPay di atas untuk melakukan pembayaran.</p>
-
-<button onclick="kirimWA()">
-Saya Sudah Bayar
+       gopay.pngimages
+       <button onclick="window.location.href='bayar.html'">
+    Lanjutkan Pembelian
 </button>

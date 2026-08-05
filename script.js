@@ -1,16 +1,20 @@
 function kirimWA() {
-    const nomor = "6283183653773";
+    let nomor = "6283183653773";
 
-    const pesan = `Halo Admin Supi Store,
+    let id = document.getElementById("userId").value;
+    let server = document.getElementById("serverId").value;
 
-Saya sudah melakukan pembayaran.
+    let pesan =
+`Halo Admin,
 
-Mohon dicek ya.
+Saya ingin melakukan top up Mobile Legends.
 
-Terima kasih.`;
+🆔 ID : ${id}
+🌐 Server : ${server}
+
+Mohon diproses. Terima kasih.`;
 
     window.open(
         `https://wa.me/${nomor}?text=${encodeURIComponent(pesan)}`,
         "_blank"
     );
-}
