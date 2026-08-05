@@ -2,99 +2,120 @@
     margin:0;
     padding:0;
     box-sizing:border-box;
-    font-family:Arial,sans-serif;
+    font-family:Arial, Helvetica, sans-serif;
 }
 
 body{
-    background:linear-gradient(135deg,#0f172a,#1e3a8a,#4f46e5);
-    color:white;
-    padding:20px;
+    background:#0f172a;
+    color:#fff;
 }
 
 header{
+    background:linear-gradient(135deg,#2563eb,#1d4ed8);
     text-align:center;
-    margin-bottom:20px;
+    padding:30px 20px;
+    box-shadow:0 5px 15px rgba(0,0,0,.3);
 }
 
-header h1{
-    font-size:35px;
-    color:#00e5ff;
-    text-shadow:0 0 15px #00e5ff;
+.logo h1{
+    font-size:32px;
 }
 
-header p{
-    color:#ddd;
-    margin-top:5px;
+.logo p{
+    margin-top:8px;
+    color:#dbeafe;
 }
 
-.banner{
-    background:linear-gradient(90deg,#2563eb,#7c3aed);
-    border-radius:20px;
+.container{
+    max-width:700px;
+    margin:20px auto;
+    padding:15px;
+}
+
+.card{
+    background:#1e293b;
+    border-radius:15px;
     padding:20px;
-    text-align:center;
-    margin:20px 0;
-    box-shadow:0 0 20px rgba(0,255,255,.3);
+    margin-bottom:20px;
+    box-shadow:0 5px 15px rgba(0,0,0,.25);
 }
 
-.banner h2{
-    font-size:25px;
+.card h2{
+    margin-bottom:15px;
+    color:#60a5fa;
 }
 
 input{
     width:100%;
-    padding:15px;
+    padding:12px;
+    margin-bottom:12px;
     border:none;
-    border-radius:12px;
-    margin:10px 0;
-    font-size:16px;
-}
-
-.produk{
-    display:grid;
-    grid-template-columns:repeat(2,1fr);
-    gap:12px;
-    margin-top:15px;
-}
-
-.produk button{
-    background:linear-gradient(45deg,#00c6ff,#0072ff);
+    border-radius:10px;
+    background:#334155;
     color:white;
-    border:none;
-    padding:18px;
-    border-radius:15px;
     font-size:16px;
-    font-weight:bold;
-    transition:.3s;
-    box-shadow:0 0 15px rgba(0,150,255,.4);
 }
 
-.produk button:hover{
-    transform:scale(1.05);
+input::placeholder{
+    color:#cbd5e1;
 }
 
 button{
     width:100%;
-    padding:15px;
-    margin-top:20px;
+    padding:14px;
+    margin-top:10px;
     border:none;
-    border-radius:15px;
-    font-size:18px;
-    font-weight:bold;
-    background:linear-gradient(45deg,#22c55e,#16a34a);
+    border-radius:10px;
+    background:#2563eb;
     color:white;
+    font-size:16px;
+    cursor:pointer;
+    transition:0.3s;
 }
 
-.metode{
-    margin-top:30px;
-    background:#1e293b;
-    padding:20px;
-    border-radius:15px;
+button:hover{
+    background:#1d4ed8;
 }
 
-.footer{
+.cek{
+    background:#16a34a;
+}
+
+.cek:hover{
+    background:#15803d;
+}
+
+#nickname{
+    margin-top:15px;
     text-align:center;
-    margin-top:40px;
-    color:#bbb;
+    font-weight:bold;
+    color:#facc15;
 }
 
-    
+#infoPembayaran{
+    margin-top:15px;
+    text-align:center;
+    color:#22c55e;
+}
+
+a{
+    text-decoration:none;
+}
+
+footer{
+    text-align:center;
+    padding:20px;
+    background:#111827;
+    color:#cbd5e1;
+    margin-top:30px;
+}
+
+@media(max-width:600px){
+    .logo h1{
+        font-size:26px;
+    }
+
+    button{
+        font-size:15px;
+    }
+}
