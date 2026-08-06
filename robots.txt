@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://sufi60711-cpu.github.io/sup_store/sitemap.xml
