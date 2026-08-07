@@ -1,55 +1,114 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
+    <!-- ==============================================
+         ✅ VERIFIKASI GOOGLE — BENAR DI <head>
+         Letak: DI DALAM head, SEBELUM tag <body>
+         JANGAN DIUBAH / DIHAPUS SELAMANYA
+         ============================================== -->
+    <meta name="google-site-verification" content="piySxAXqS0wTcLHqIx8jjlWG-7dBbg9nIgUFLciJYO0" />
+
+    <!-- SEO & tampilan -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SUP STORE - Solusi Gaming Terbaik</title>
+    <title>SUP STORE - Top Up Diamond ML Murah & Jual Beli Akun Terpercaya</title>
+    <meta name="description" content="SUP STORE tempat top up diamond Mobile Legends termurah, cepat, aman 100%. Jual beli akun MLBB, joki rank, layanan 24 jam. Anti hackback, garansi uang kembali.">
+    <meta name="keywords" content="sup store, top up ml murah, diamond ml murah, jual beli akun ml, top up mobile legends, joki ml, akun smurf ml, top up ml otomatis">
+    <meta name="author" content="SUP STORE">
+    <meta name="robots" content="index, follow">
+
+    <meta property="og:title" content="🔥 SUP STORE - Top Up ML Murah & Terpercaya">
+    <meta property="og:description" content="Diamond ML termurah, proses cepat, anti hackback. Jual beli akun MLBB lengkap.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://supstore.tiiny.site"> <!-- GANTI DENGAN LINK KAMU -->
+    <link rel="canonical" href="https://supstore.tiiny.site"> <!-- GANTI DENGAN LINK KAMU -->
+
     <style>
         *{margin:0;padding:0;box-sizing:border-box;font-family:'Segoe UI', Roboto, Arial, sans-serif}
-        :root{--utama:#1a1a2e;--tombol:#16213e;--tegas:#ffd700;--teks:#ffffff;--abu:#bbbbbb;--hover:#0f3460}
-        body{background:var(--utama);color:var(--teks);min-height:100vh;padding:30px 15px}
-        .wadah{max-width:500px;margin:0 auto;text-align:center}
+        :root{--tombol:rgba(15, 23, 42, 0.82);--tegas:#facc15;--teks:#fff;--abu:#cbd5e1;--hover:rgba(30, 41, 59, 0.95);--harga:#86efac;--cs:#60a5fa}
+
+        body{
+            background: url("https://p-dola-image-sign-sgnontt.byteintl.net/tos-mya-i-uo7y4d541q/rc_file_mobile/92a818c391a84d41b1e3686436c8dba1.jpg~tplv-0es2k971ck-24-95-exif:960:960.image?rcl=202608070239082A6F30E358614BB72DBF&rk3s=8e244e95&rrcfp=5e034a21&x-orig-authkey=dolaorigin&x-orig-expires=1786127956&x-orig-sign=v9zhADGwgim4K%2F9VxHKfuRfXOGc%3D") center top / cover no-repeat fixed #050816;
+            color:var(--teks);min-height:100vh;padding:32px 16px;position:relative;z-index:1
+        }
+        body::before{content:"";position:fixed;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.72),rgba(0,0,0,.85));z-index:-1}
+
+        .wadah{max-width:540px;margin:0 auto;text-align:center;position:relative;z-index:2}
         .profil{margin-bottom:30px}
-        .profil h1{color:var(--tegas);font-size:28px;margin-bottom:8px}
-        .profil p{color:var(--abu);font-size:16px;line-height:1.5}
-        .lencana{background:rgba(255,215,0,0.15);color:var(--tegas);display:inline-block;padding:4px 10px;border-radius:20px;font-size:13px;margin:6px 0}
-        .grup-link{margin-bottom:25px}
-        .judul-bagian{color:var(--tegas);font-size:15px;text-transform:uppercase;margin:18px 0 10px 0;letter-spacing:1px}
-        .tombol{display:block;background:var(--tombol);color:var(--teks);text-decoration:none;padding:14px 18px;margin-bottom:12px;border-radius:12px;transition:all 0.25s;font-size:16px;border:1px solid rgba(255,255,255,0.08)}
-        .tombol:hover{background:var(--hover);transform:translateY(-2px);box-shadow:0 5px 15px rgba(0,0,0,0.35)}
-        .kaki{margin-top:40px;color:#777;font-size:13px}
+        .profil h1{color:var(--tegas);font-size:30px;margin-bottom:8px;text-shadow:0 2px 10px rgba(0,0,0,.6)}
+        .profil .slogan{color:#e2e8f0;font-size:17px;margin-bottom:6px}
+        .profil .jamin{color:#86efac;font-size:14px;font-weight:500}
+        .judul-bagian{margin:26px 0 10px;text-align:left;color:var(--abu);font-size:13px;text-transform:uppercase;letter-spacing:1.2px;font-weight:600;border-left:3px solid var(--tegas);padding-left:10px;line-height:1.2}
+        .tombol{display:block;background:var(--tombol);color:var(--teks);text-decoration:none;padding:14px 16px;margin-bottom:11px;border-radius:14px;font-size:15.5px;transition:all .25s ease;border:1px solid rgba(250,204,21,.15);backdrop-filter:blur(4px)}
+        .tombol:hover{background:var(--hover);transform:translateY(-2px);border-color:rgba(250,204,21,.4);box-shadow:0 6px 20px rgba(250,204,21,.12)}
+        .tombol-cs{border-color:rgba(96,165,250,.3)}
+        .tombol-cs:hover{border-color:rgba(96,165,250,.7);box-shadow:0 6px 20px rgba(96,165,250,.15)}
+
+        .harga-item{display:flex;justify-content:space-between;align-items:center;gap:10px;text-align:left}
+        .harga-nama{flex:1;font-size:15px}
+        .harga-angka{color:var(--harga);font-weight:700;font-size:15px;white-space:nowrap}
+        .label-hemat{display:inline-block;background:rgba(250,204,21,.18);color:var(--tegas);font-size:10.5px;padding:2px 7px;border-radius:999px;margin-left:6px;font-weight:600;vertical-align:middle}
+
+        .kaki{margin-top:45px;color:#94a3b8;font-size:12.5px;padding-bottom:10px}
     </style>
+
+<!-- ==============================================
+     ✅ AKHIR DARI BAGIAN <head>
+     DI BAWAH INI BARU <body> — SESUAI ARAHAN GOOGLE
+     ============================================== -->
 </head>
 <body>
     <div class="wadah">
         <div class="profil">
             <h1>🔥 SUP STORE 🔥</h1>
-            <p class="lencana">Solusi Gaming Terbaikmu! 🥇</p>
-            <p>Top Up Game Termurah, Aman, Legal 100%, dan 24 Jam Nonstop!</p>
-            <p style="margin-top:6px">Anti Hackback & Garansi Uang Kembali Terjamin ✅</p>
+            <p class="slogan">Top Up Diamond ML Murah • Jual Beli Akun • Terpercaya</p>
+            <p class="jamin">✅ Proses Cepat • Anti Hackback • Garansi Uang Kembali 100% • Layanan 24 Jam</p>
         </div>
 
-        <div class="grup-link">
-            <div class="judul-bagian">📢 Info Terbaru & Stok</div>
-            <a href="#" class="tombol">📢 CEK STOK & UPDATE AKUN (CHANNEL)</a>
-            <a href="#" class="tombol">📦 STOK AKUN READY (CEK DISINI)</a>
+        <div class="judul-bagian">📢 Info & Stok Terbaru</div>
+        <a href="https://whatsapp.com/channel/0029Vb98zKH3wtb29oWzSO2s" class="tombol" target="_blank">📢 SALURAN RESMI WHATSAPP SUP STORE</a>
 
-            <div class="judul-bagian">💬 Jual Beli</div>
-            <a href="#" class="tombol">💬 JUAL BELI | VIA TELEGRAM</a>
-            <a href="https://wa.me/6283183653773" class="tombol">🛒 BELI AKUN GAME | Admin</a>
-            <a href="https://wa.me/6283183653773" class="tombol">💰 JUAL AKUN GAME | Admin</a>
+        <!-- TOP UP & JB → 083193434485 -->
+        <div class="judul-bagian">💎 TOP UP DIAMOND MOBILE LEGENDS</div>
+        <p style="text-align:left;color:#cbd5e1;font-size:13px;margin-bottom:10px">💡 Klik paket → langsung chat admin <strong>0831-9343-4485</strong></p>
 
-            <div class="judul-bagian">🌐 Layanan Lainnya</div>
-            <a href="#" class="tombol">🌐 WEBSITE RESMI SUP STORE</a>
-            <a href="#" class="tombol">💎 TOP UP ALL GAMES</a>
-            <a href="#" class="tombol">🚀 JOKI AKUN GAME</a>
+        <a href="https://wa.me/6283193434485?text=Halo%20kak%20SUP%20STORE%2C%20mau%20pesan%20Weekly%20Diamond%20Pass%20%40%20Rp%2027.900" class="tombol" target="_blank"><div class="harga-item"><span class="harga-nama">💳 Weekly Diamond Pass <span class="label-hemat">TERLARIS</span></span><span class="harga-angka">Rp 27.900</span></div></a>
+        <a href="https://wa.me/6283193434485?text=Halo%20kak%2C%20mau%20pesan%20Weekly%20x2%20%40%20Rp%2055.700" class="tombol" target="_blank"><div class="harga-item"><span class="harga-nama">💳 Weekly Diamond Pass x2</span><span class="harga-angka">Rp 55.700</span></div></a>
+        <a href="https://wa.me/6283193434485?text=Halo%20kak%2C%20mau%20pesan%20Twilight%20Pass%20%40%20Rp%2069.500" class="tombol" target="_blank"><div class="harga-item"><span class="harga-nama">🎟️ Twilight Pass Bulanan</span><span class="harga-angka">Rp 69.500</span></div></a>
+        <a href="https://wa.me/6283193434485?text=Halo%20kak%2C%20mau%20pesan%20Starlight%20Member%20%40%20Rp%20149.000" class="tombol" target="_blank"><div class="harga-item"><span class="harga-nama">⭐ Starlight Member</span><span class="harga-angka">Rp 149.000</span></div></a>
 
-            <div class="judul-bagian">📞 Bantuan & Lokasi</div>
-            <a href="#" class="tombol">🛡️ Pusat Layanan Aduan</a>
-            <a href="#" class="tombol">📍 LOKASI TOKO / KONTAK</a>
-        </div>
+        <div class="judul-bagian">💎 PAKET DIAMOND SATUAN</div>
+        <a href="https://wa.me/6283193434485?text=Halo%20kak%2C%20mau%20pesan%2012%20DM%20%40%20Rp%203.400" class="tombol" target="_blank"><div class="harga-item"><span class="harga-nama">💎 12 Diamond</span><span class="harga-angka">Rp 3.400</span></div></a>
+        <a href="https://wa.me/6283193434485?text=Halo%20kak%2C%20mau%20pesan%2019%20DM%20%40%20Rp%205.000" class="tombol" target="_blank"><div class="harga-item"><span class="harga-nama">💎 19 Diamond</span><span class="harga-angka">Rp 5.000</span></div></a>
+        <a href="https://wa.me/6283193434485?text=Halo%20kak%2C%20mau%20pesan%2028%20DM%20%40%20Rp%207.200" class="tombol" target="_blank"><div class="harga-item"><span class="harga-nama">💎 28 Diamond</span><span class="harga-angka">Rp 7.200</span></div></a>
+        <a href="https://wa.me/6283193434485?text=Halo%20kak%2C%20mau%20pesan%2044%20DM%20%40%20Rp%2010.700" class="tombol" target="_blank"><div class="harga-item"><span class="harga-nama">💎 44 Diamond</span><span class="harga-angka">Rp 10.700</span></div></a>
+        <a href="https://wa.me/6283193434485?text=Halo%20kak%2C%20mau%20pesan%2059%20DM%20%40%20Rp%2014.800" class="tombol" target="_blank"><div class="harga-item"><span class="harga-nama">💎 59 Diamond</span><span class="harga-angka">Rp 14.800</span></div></a>
+        <a href="https://wa.me/6283193434485?text=Halo%20kak%2C%20mau%20pesan%2086%20DM%20%40%20Rp%2022.500" class="tombol" target="_blank"><div class="harga-item"><span class="harga-nama">💎 86 Diamond</span><span class="harga-angka">Rp 22.500</span></div></a>
+        <a href="https://wa.me/6283193434485?text=Halo%20kak%2C%20mau%20pesan%20172%20DM%20%40%20Rp%2045.000" class="tombol" target="_blank"><div class="harga-item"><span class="harga-nama">💎 172 Diamond</span><span class="harga-angka">Rp 45.000</span></div></a>
+        <a href="https://wa.me/6283193434485?text=Halo%20kak%2C%20mau%20pesan%20257%20DM%20%40%20Rp%2067.000" class="tombol" target="_blank"><div class="harga-item"><span class="harga-nama">💎 257 Diamond <span class="label-hemat">HEMAT</span></span><span class="harga-angka">Rp 67.000</span></div></a>
+        <a href="https://wa.me/6283193434485?text=Halo%20kak%2C%20mau%20pesan%20344%20DM%20%40%20Rp%2089.000" class="tombol" target="_blank"><div class="harga-item"><span class="harga-nama">💎 344 Diamond</span><span class="harga-angka">Rp 89.000</span></div></a>
+        <a href="https://wa.me/6283193434485?text=Halo%20kak%2C%20mau%20pesan%20514%20DM%20%40%20Rp%20132.000" class="tombol" target="_blank"><div class="harga-item"><span class="harga-nama">💎 514 Diamond</span><span class="harga-angka">Rp 132.000</span></div></a>
+        <a href="https://wa.me/6283193434485?text=Halo%20kak%2C%20mau%20pesan%20876%20DM%20%40%20Rp%20220.000" class="tombol" target="_blank"><div class="harga-item"><span class="harga-nama">💎 876 Diamond <span class="label-hemat">BORONGAN</span></span><span class="harga-angka">Rp 220.000</span></div></a>
+        <a href="https://wa.me/6283193434485?text=Halo%20kak%2C%20mau%20pesan%20AKUN%20SMURF%20ML%20mulai%2015rb" class="tombol" target="_blank"><div class="harga-item"><span class="harga-nama">🎮 Akun Smurf ML Siap Pakai</span><span class="harga-angka">Mulai 15rb</span></div></a>
 
-        <div class="kaki">© 2026 SUP STORE. Semua Hak Dilindungi.</div>
+        <div class="judul-bagian">💬 Jual Beli Akun</div>
+        <a href="https://telegram.org/dl" class="tombol" target="_blank">💬 JUAL / BELI VIA TELEGRAM</a>
+        <a href="https://wa.me/6283193434485" class="tombol" target="_blank">🛒 BELI AKUN GAME</a>
+        <a href="https://wa.me/6283193434485" class="tombol" target="_blank">💰 LEPAS / JUAL AKUN GAME</a>
+
+        <div class="judul-bagian">💳 Pembayaran</div>
+        <a href="https://link.dana.id/minta?full_url=https://qr.dana.id/v1/281012012025010745701326" class="tombol" target="_blank">💳 BAYAR VIA DANA DISINI</a>
+
+        <div class="judul-bagian">📍 Lokasi & Layanan Lain</div>
+        <a href="https://maps.app.goo.gl/s6pqTqyeULbDWkjv9" class="tombol" target="_blank">📍 LOKASI TOKO KITA</a>
+        <a href="https://wa.me/6283193434485" class="tombol" target="_blank">💎 TOP UP SEMUA GAME LAINNYA</a>
+        <a href="https://wa.me/6283193434485" class="tombol" target="_blank">🚀 JOKI RANK / JOKI AKUN</a>
+
+        <!-- NOMOR LAMA → CS LAYANAN ADUAN -->
+        <div class="judul-bagian">🛡️ LAYANAN ADUAN & BANTUAN</div>
+        <a href="https://wa.me/6283183653773?text=Halo%20kak%20CS%2C%20saya%20mau%20mengadu%2Fbertanya%20mengenai%20transaksi%20di%20SUP%20STORE" class="tombol tombol-cs" target="_blank">🛡️ CS LAYANAN ADUAN • 0831-8365-3773</a>
+
+        <div class="kaki">© 2026 SUP STORE • Top Up ML & Jual Beli Akun Terpercaya ✨</div>
     </div>
 </body>
 </html>
